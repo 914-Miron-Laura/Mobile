@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateItemActivity">
+
+
+    <TextView
+        android:id="@+id/editItemHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Edit Item"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/pink"
+        android:textSize="24sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editItemHeading"
+        android:layout_marginEnd="6dp"
+        />
+
+    <EditText
+        android:id="@+id/UpdatetitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint = "Update The Title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/editItemHeading"
+        android:background="@drawable/pink_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/UpdateDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint = "Update The Description"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/UpdatetitleEditText"
+        android:background="@drawable/pink_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/UpdateCategoryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint = "Update The Category"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/UpdateDescriptionEditText"
+        android:background="@drawable/pink_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/UpdatePriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint = "Update The Price"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/UpdateCategoryEditText"
+        android:background="@drawable/pink_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/UpdateSizeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint = "Update The Size"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/UpdatePriceEditText"
+        android:background="@drawable/pink_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/UpdateColorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint = "Update The Color"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/UpdateSizeEditText"
+        android:background="@drawable/pink_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+</RelativeLayout>
